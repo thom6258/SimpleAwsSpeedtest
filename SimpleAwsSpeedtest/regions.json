@@ -1,0 +1,66 @@
+[
+  {
+    "name": "US East (Ohio)",
+    "host": "s3.us-east-2.amazonaws.com"
+  },
+  {
+    "name": "US East (N. Virginia)",
+    "host": "s3.us-east-1.amazonaws.com"
+  },
+  {
+    "name": "US West (N. California)",
+    "host": "s3.us-west-1.amazonaws.com"
+  },
+  {
+    "name": "US West (Oregon)",
+    "host": "s3.us-west-2.amazonaws.com"
+  },
+  {
+    "name": "Asia Pacific (Mumbai)",
+    "host": "s3.ap-south-1.amazonaws.com"
+  },
+  {
+    "name": "Asia Pacific (Seoul)",
+    "host": "s3.ap-northeast-2.amazonaws.com"
+  },
+  {
+    "name": "Asia Pacific (Tokyo)",
+    "host": "s3.ap-northeast-1.amazonaws.com"
+  },
+  {
+    "name": "Asia Pacific (Singapore)",
+    "host": "s3.ap-southeast-1.amazonaws.com"
+  },
+  {
+    "name": "Asia Pacific (Sydney)",
+    "host": "s3.ap-southeast-2.amazonaws.com"
+  },
+  {
+    "name": "Canada (Central)",
+    "host": "s3.ca-central-1.amazonaws.com"
+  },
+  {
+    "name": "EU (Frankfurt)",
+    "host": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+    "name": "EU (Ireland)",
+    "host": "s3.eu-west-1.amazonaws.com"
+  },
+  {
+    "name": "EU (London)",
+    "host": "s3.eu-west-2.amazonaws.com"
+  },
+  {
+    "name": "EU (Paris)",
+    "host": "s3.eu-west-3.amazonaws.com"
+  },
+  {
+    "name": "EU (Stockholm)",
+    "host": "s3.eu-north-1.amazonaws.com"
+  },
+  {
+    "name": "South America (São Paulo)",
+    "host": "s3.sa-east-1.amazonaws.com"
+  }
+]
