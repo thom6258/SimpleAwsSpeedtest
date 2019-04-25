@@ -22,12 +22,14 @@ namespace SimpleAwsSpeedtest
 
         public static long PingOverICMP(string host)
         {
-            var pinger = new Ping();
-            var reply = pinger.Send(host);
-            if (reply.Status == IPStatus.Success)
-                return reply.RoundtripTime;
+            using (var pinger = new Ping())
+            {
+                var reply = pinger.Send(host);
+                if (reply.Status == IPStatus.Success)
+                    return reply.RoundtripTime;
 
-            return -1; // Error pinging host
+                return -1; // Error pinging host
+            }
         }
 
         private static long PingOverWeb(string url)
@@ -35,10 +37,12 @@ namespace SimpleAwsSpeedtest
             WebRequest webRequest = WebRequest.Create(url);
 
             var timer = Stopwatch.StartNew();
-            WebResponse httpResponse = (WebResponse)webRequest.GetResponse();
-            timer.Stop();
+            using (WebResponse httpResponse = (WebResponse)webRequest.GetResponse())
+            {
+                timer.Stop();
 
-            return timer.ElapsedMilliseconds;
+                return timer.ElapsedMilliseconds;
+            }
         }
     }
 }
