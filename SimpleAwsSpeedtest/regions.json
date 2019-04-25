@@ -16,6 +16,10 @@
     "host": "s3.us-west-2.amazonaws.com"
   },
   {
+    "name": "Asia Pacific (Hong Kong)",
+    "host": "s3.ap-east-1.amazonaws.com"
+  },
+  {
     "name": "Asia Pacific (Mumbai)",
     "host": "s3.ap-south-1.amazonaws.com"
   },
