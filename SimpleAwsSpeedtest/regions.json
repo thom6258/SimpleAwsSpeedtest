@@ -66,5 +66,9 @@
   {
     "name": "South America (São Paulo)",
     "host": "s3.sa-east-1.amazonaws.com"
+  },
+  {
+    "name": "Middle East (Bahrain)",
+    "host": "s3.me-south-1.amazonaws.com"
   }
 ]
